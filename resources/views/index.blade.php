@@ -6,7 +6,8 @@
 	<title></title>
 </head>
 <body>
-@extends('layout.app')
+<!-- dfhdgdgdgdgdgd -->
+@extends('layout.app') 
 	<style type="text/css">
 		.pagination li{
 			float: left;
