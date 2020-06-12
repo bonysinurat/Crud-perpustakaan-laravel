@@ -29,7 +29,3 @@ Route::post('/crud/update','BookController@update');
 
 Route::get('/crud/hapus/{id}','BookController@hapus');
 
-Route::get('/input', 'ValidationController@input');
- 
-Route::post('/proses', 'BookController@proses');
-

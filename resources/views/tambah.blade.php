@@ -39,6 +39,11 @@
 			{{ csrf_field() }}
 			<input type="text" class="form-control col-sm-4" required="required" name="book_penerbit" value="{{ old('book_penerbit') }}" >
 		</div>
+		<div class="form-group row">
+			<label for="formGroupExampleInput" class="col-sm-2 col-form-label">Kategori</label>
+			{{ csrf_field() }}
+			<input type="text" class="form-control col-sm-4" required="required" name="book_kategori" value="{{ old('book_kategori') }}" >
+		</div>
 		
 		<input type="submit" value="Simpan Data">
 	</form>

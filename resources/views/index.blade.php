@@ -30,7 +30,7 @@
 			</tr>
 		</thead>
   
-		@foreach($book as $b)
+		@foreach($book2 as $b)
 			<tr>
 			<td scope="row"> {{ $loop->iteration }} </td>
 				<td>{{ $b->book_judul }}</td>
@@ -46,7 +46,7 @@
 	</table>
 	<br/>
 
-	{{ $book->links() }}
+	{{ $book2->links() }}
 
 
 </body>
